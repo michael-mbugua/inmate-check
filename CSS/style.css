@@ -1,0 +1,48 @@
+
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+.main{
+    justify-content: space-around;
+}
+.logo{
+    float: left;
+    position: fixed;
+    justify-content: space-around;
+    /* padding-right: 10px; */
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.input{
+    padding-top: 50vh;
+}
+#input-check{
+    padding: 15px 40px;
+    border-radius: 3vh;
+    text-align: center;
+    justify-content: center;
+}
+#submit{
+    padding-left: 5px;
+    padding: 10px 25px;
+    border-radius: 2vh;
+    background-color: orange;
+    color: black;
+    font-size: large;
+}
