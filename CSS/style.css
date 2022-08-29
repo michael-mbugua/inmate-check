@@ -38,7 +38,7 @@ a{
     text-align: center;
     justify-content: center;
 }
-#submit{
+#submit {
     padding-left: 5px;
     padding: 10px 25px;
     border-radius: 2vh;
@@ -46,3 +46,28 @@ a{
     color: black;
     font-size: large;
 }
+.login{
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+}
+#credentials{
+    padding: 15px 40px;
+    padding-top: 5px;
+    border-radius: 2vh;
+    text-align: center;
+    justify-content: center
+}
+#register{
+    padding-left: 5px;
+    padding: 10px 25px;
+    border-radius: 2vh;
+    background-color: orange;
+    color: black;
+    font-size: large;
+}
+#dob{
+    padding: 15px 58px;
+    border-radius: 2vh;
+}
+
