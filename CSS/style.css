@@ -3,8 +3,14 @@ body{
     background-color: black;
     text-align: center;
     color: white;
+    background-image: url('/Assets/images/inmate.Background2.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: relative;
     font-weight: 500;
     font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .main{
     justify-content: space-around;
@@ -15,6 +21,9 @@ body{
     justify-content: space-around;
     /* padding-right: 10px; */
 }
+li{
+    font-weight: 700;
+}
 .nav_bar{
     display: flex;
     flex-direction: row;
@@ -24,13 +33,58 @@ body{
     
     
 }
+.dropDown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);;
+    z-index: 1;
+}
+.dropdown_content a{
+    display: block;
+    color: white;
+    font-size: medium;
+    padding-top: 10px;
+}
+.dropdown_content a:hover{
+    background-color: aliceblue;
+    color: orange;
+    border-radius: 1vh;
+}
+.dropDown:hover .dropdown_content{
+    display: block;
+}
+.dropDownBtn:visited,.dropDownBtn:hover{
+    background-color: white;
+    color: orange;
+}
+.dropDownBtn{
+    padding: 10px 25px;
+    background-color: orange;
+    color: black;
+    border-radius: 1vh;
+    font-size: large;
+    border: none;
+}
 a{
     text-decoration: none;
-    color: white;
+    color: orange;
     
 }
+#kamiti{
+    justify-content: space-between
+}
+a:hover{
+    color: orange;
+    background-color: white;
+    border-radius: 1vh;
+    padding: 5px 15px;
+}
 .input{
-    padding-top: 50vh;
+    padding-top: 25vh;
 }
 #input-check{
     padding: 15px 40px;
@@ -69,5 +123,10 @@ a{
 #dob{
     padding: 15px 58px;
     border-radius: 2vh;
+}
+#home:hover{
+    padding-top: 15px;
+    text-decoration: underline;
+
 }
 
