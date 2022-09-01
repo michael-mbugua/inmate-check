@@ -9,9 +9,13 @@
 </head>
 <body>
     <div class="main">
-        <h2 style="color: orange;">Thika prison In-mate details</h2>
+        <div class="logo">
+            <img src="/Assets/images/logo2.png" height="100px" alt="">
+        </div>
+        <h2 style="color: orange;">Thika prison In-mate check</h2>
         <div class="nav_bar">
             <!-- <a class="dropDown" href="#"><li>prisons -->
+            <a id='home' href="./index.html" style="font-weight: 700;">Back Home</a>
                 <div class="dropDown" id="kamiti">
                     <button class="dropDownBtn">prisons</button>
                     <div class="dropdown_content" id="myDropDown">
@@ -20,15 +24,18 @@
                         <a href="thikamaximum.html"><li>Thika</li></a>
                     </div>
                 </div>
-                
-            </li></a>
-            <a href="login.html"><li>login</li> </a>
+                <a href="login.html"><li>login</li> </a>
         </div>
         <div class="input">
             <div class="inmate_details">
+                <br>
+                <br>
                 <label for="inmateName">Name of the Inmate</label><br>
+                <br>
                 <input id="input-check" id="credentials" type="text" placeholder="check inmate" required> <br>
+                <br>
                 <label for="CaseId">Enter Case ID</label> <br>
+                <br>
                 <input id='credentials' type="text" placeholder="case ID"><br>
                 <br>
                 <input id="submit" type="submit" value="Check">
@@ -37,7 +44,6 @@
         </div>
     </div>
     <br>
-    <a id='home' href="./index.html">Back Home</a>
     <script src="/JS/app.js"></script>
 </body>
 </html>
