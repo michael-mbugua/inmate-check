@@ -31,19 +31,30 @@
             <div class="inmate_details">
                 <br>
                 <br>
-                <label for="inmateName">Name of the Inmate</label><br>
+                <!-- <label for="inmateName">Name of the Inmate</label><br>
                 <br>
                 <input id="input-check" id="credentials" type="text" placeholder="check inmate" required> <br>
-                <br>
+                <br> -->
                 <label for="CaseId">Enter Case ID</label> <br>
                 <br>
                 <input id='credentials' type="text" placeholder="case ID"><br>
                 <br>
                 <input id="submit" type="submit" value="Check">
             </div>
-            <br>            
+            <br>   
+        </div>
+        <div id="inmate">
+            <p id="inmateDetails">Below are the details 
+                <br>
+                <br>
+            </p>
+            <p><b>Name:</b> <span style="color: orange;" id="Nameinmate"></span><br></p>
+            <p><b>Bond:</b> <span style="color: orange;" id="inmatebond"></span><br></p>
+            <p><b>Hearings:</b> <span style="color: orange;" id="inmatehearing"></span><br></p>
+            <p><b>Criminal offense:</b> <span style="color: orange;" id="criminal_offense"></span></p>
+            <p><b>Release Date:</b> <span style="color: orange;"id="release_date"></span><br></p>
         </div>
     </div>
-    <script src="JS/app.js"></script>
+    <script src="./industrial API/industrial.js"></script>
 </body>
 </html>
