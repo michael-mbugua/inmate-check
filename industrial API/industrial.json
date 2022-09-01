@@ -1,0 +1,12 @@
+{
+    "inmates2":[
+        {
+            "id": 5665,
+            "name": "john Kiriamiti",
+            "Bond": "ksh:200,000",
+            "Hearings":"completed",
+            "Release_Date":"2023/05/24",
+            "criminal_Offense":"Robbery with violence"
+        }
+    ]
+}
