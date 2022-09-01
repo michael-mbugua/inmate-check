@@ -10,10 +10,11 @@ body{
     position: relative;
     font-weight: 500;
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "arial";
 }
 .main{
     justify-content: space-around;
+    margin-top: 0%;
 }
 .logo{
     float: left;
@@ -79,9 +80,10 @@ a{
 }
 a:hover{
     color: orange;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 1vh;
     padding: 5px 15px;
+    text-decoration: underline;
 }
 .input{
     padding-top: 25vh;
@@ -91,6 +93,7 @@ a:hover{
     border-radius: 3vh;
     text-align: center;
     justify-content: center;
+    border: none;
 }
 #submit {
     padding-left: 5px;
@@ -99,6 +102,7 @@ a:hover{
     background-color: orange;
     color: black;
     font-size: large;
+    border: none;
 }
 .login{
     text-align: center;
@@ -113,20 +117,25 @@ a:hover{
     justify-content: center
 }
 #register{
+    padding-top:10px ;
     padding-left: 5px;
     padding: 10px 25px;
     border-radius: 2vh;
     background-color: orange;
     color: black;
     font-size: large;
+    border: none;
 }
 #dob{
     padding: 15px 58px;
     border-radius: 2vh;
 }
-#home:hover{
+#home a:hover{
     padding-top: 15px;
     text-decoration: underline;
-
+    background-color: none;
+}
+h2{
+    padding-top: 0%;
 }
 
