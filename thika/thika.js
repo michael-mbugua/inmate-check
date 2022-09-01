@@ -1,6 +1,6 @@
-let inmateAPI='http://localhost:3000/inmates/5664';
+let thikaURL='http://localhost:3000/thika/5666';
 async function getDetails(){
-        const response=await fetch(inmateAPI);
+        const response=await fetch(thikaURL);
         const data=await response.json();
         console.log(response)
         const {name,Bond,Hearings,Release_Date,criminal_Offense}=data;
@@ -16,7 +16,3 @@ async function getDetails(){
     function checking(){
             alert("kindly choose the prison you want to search from")
         }
-
-
-
-
