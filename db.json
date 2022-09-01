@@ -1,0 +1,60 @@
+{
+    "inmates": [
+    {
+        "id": 5664,
+        "name": "john ellis",
+        "Bond": "N/A",
+        "Hearings":"completed",
+        "Release Date":"2023/05/24",
+        "criminal Offense":"Robbery with violence"
+    },
+    {
+        "id": 5665,
+        "name": "john Kiriamiti",
+        "Bond": "ksh:200,000",
+        "Hearings":"completed",
+        "Release Date":"2023/05/24",
+        "criminal Offense":"Robbery with violence"
+    },
+    {
+        "id": 5667,
+        "name": "jimmy pork",
+        "Bond": "ksh: 50,000",
+        "Hearings":"completed",
+        "Release Date":"2022/11/4",
+        "criminal Offense":"over speeding"
+    },
+    {
+        "id": 5676,
+        "name": "stephen joker",
+        "Bond": "N/A",
+        "Hearings":"N/A",
+        "Release Date":"life imprisonment",
+        "criminal Offense":"murder"
+    },
+    {
+        "id": 5677,
+        "name": "john ellis",
+        "Bond": "ksh: 100,000",
+        "Hearings":"completed",
+        "Release Date":"2022/12/24",
+        "criminal Offense":"Robbery"
+    },
+    {
+        "id": 5678,
+        "name": "john ellis",
+        "Bond": "N/A",
+        "Hearings":"completed",
+        "Release Date":"2027/05/23",
+        "criminal Offense":"Carrying Dangerous weapons"
+    },
+    {
+        "id": 5680,
+        "name": "john ellis",
+        "Bond": "N/A",
+        "Hearings":"completed",
+        "Release Date":"2043/05/24",
+        "criminal Offense":"Attempted murder"
+    }
+    ]
+}
