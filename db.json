@@ -23,30 +23,6 @@
         "Hearings":"N/A",
         "Release_Date":"life imprisonment",
         "criminal_Offense":"murder"
-    },
-    {
-        "id": 5677,
-        "name": "john ellis",
-        "Bond": "ksh: 100,000",
-        "Hearings":"completed",
-        "Release_Date":"2022/12/24",
-        "criminal_Offense":"Robbery"
-    },
-    {
-        "id": 5678,
-        "name": "john ellis",
-        "Bond": "N/A",
-        "Hearings":"completed",
-        "Release_Date":"2027/05/23",
-        "criminal_Offense":"Carrying Dangerous weapons"
-    },
-    {
-        "id": 5680,
-        "name": "john ellis",
-        "Bond": "N/A",
-        "Hearings":"completed",
-        "Release_Date":"2043/05/24",
-        "criminal_Offense":"Attempted murder"
     }
     ]
 }

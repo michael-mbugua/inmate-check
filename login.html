@@ -12,29 +12,37 @@
         <div class="logo">
             <img src="/Assets/images/logo2.png" height="100px" alt="">
         </div>
+        <a id='home' href="./index.html">Back Home</a>
+
         <div class="login">
             <h3>please fill the form below</h3>
-            <p style="color: white;">Enter Full Details. <br>
+            <!-- <p style="color: white;">Enter Full Details. <br> -->
                 <div class="login_name">
                     <label for="first-name">First name</label><br>
                     <input type="text" id="credentials" placeholder="First Name" required><br>
+                    <br>
                     <label for="last-Name">Last Name</label><br>
                     <input type="text" id="credentials" placeholder="Last name" required><br>
+                    <br>
                 </div>
                 <div class="doblogin">
-                    <label for="DOB">Date of Birth <span style="font-size:15px;">(must be 18 yrs or above)</span></label><br>
-                    <input id="dob" type="date" id="credentials" required><br>
+                    <label for="DOB">Date of Birth <span style="font-size:15px;"></span></label><br>
+                    <input id="dob" class="dob"  type="date" id="credentials" required><br>
+                    <br>
                     <label for="IDNUMBER">ID number</label><br>
                     <input type="number" required id="credentials"><br>
                 </div>
             <input type="checkbox" required>
             <label for="checkBox">i am 18 years and above</label>
             <br>
-            <button id="register">Register</button>
+            <br>
+                <input type="submit" value="Register" onclick="register()" id="register">
+            <a style="padding-left: 50px;" id='home' href="./index.html">go to home</a>
+
             <br>
             <br>
-            <a id='home' href="./index.html">Back Home</a>
         </div>
     </div>
+    <script src="JS/app.js"></script>
 </body>
 </html>
