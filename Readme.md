@@ -1,5 +1,5 @@
 
-
+[title](https://img.shields.io/badge/kenyaprisons-inmate-<blue>)
 ## INMATE'S CHECK DETAILS PROJECT
 ![inmate logo](/home/moringa/Development/code/phase_1/labs/inmate_individual_project/logo2.png?raw=true "Title")
 in-mate check is a website that allows users to search inmate details such as;
@@ -7,7 +7,8 @@ in-mate check is a website that allows users to search inmate details such as;
 - release date
 - hearings 
 - criminal offense.
-https://img.shields.io/badge/<kenyaprisons>-<inmate>-<blue>
+
+
 ## Who uses Inmate check
  1. police wardens 
  2. Government officials
