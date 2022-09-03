@@ -8,38 +8,37 @@
     <title>Kamiti inmate check</title>
 </head>
 <body>
+    <!-- create a div that will hold the entire page for easy styling -->
+
     <div class="main">
         <div class="logo">
             <img src="/Assets/images/logo2.png" height="100px" alt="">
         </div>
         <h2 style="color: orange;">Kamiti prison In-mate check</h2>
         <div class="nav_bar">
-            <!-- <a class="dropDown" href="#"><li>prisons -->
                 <a id='home' href="./index.html">Back Home</a>
                 <div class="dropDown" id="kamiti">
                     <button class="dropDownBtn">prisons</button>
                     <div class="dropdown_content" id="myDropDown">
                         <a href="kamiti.html"><li>Kamiti</li></a>
-                        <!-- <a href="industrial.html"><li>Industrial</li></a> -->
                         <a href="thikamaximum.html"><li>Thika</li></a>
                     </div>
                 </div>
-                <!-- <a href="login.html"><li>login</li> </a> -->
         </div>
+<!-- create input page to get inputs from the user -->
+
         <div class="input">
             <div class="inmate_details">
                 <br>
                 <br>
-                <!-- <label for="inmateName">Name of the Inmate</label><br>
-                <br>
-                <input id="input-check" id="credentials" type="text" placeholder="check inmate" required> <br>
-                <br> -->
                 <label for="CaseId">Enter Case ID</label> <br>
                 <br>
-                <input id='credentials' type="number" placeholder="case ID"><br>
+                <input id='credentials' type="number" placeholder="case ID" class="caseID"><br>
                 <br>
                 <input id="submit" type="submit" value="Check">
             </div>
+            
+<!-- a div that will hold the data response from the input -->
             <div id="inmate">
                 <p id="inmateDetails">Below are the details 
                     <br>
