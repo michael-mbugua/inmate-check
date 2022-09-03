@@ -1,6 +1,7 @@
-![inmate logo](/home/moringa/Development/code/phase_1/labs/inmate_individual_project/Assets/images/logo2.png)
+
 
 # INMATE'S CHECK DETAILS PROJECT
+![inmate logo](logo2.png)
 in-mate check is a website that allows users to search inmate details such as;
 - bond
 - release date
