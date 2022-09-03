@@ -1,9 +1,9 @@
 # INMATE'S CHECK DETAILS PROJECT
 in-mate check is a website that allows users to search inmate details such as;
-    - bond
-    - release date
-    - hearings 
-    - criminal offense.
+- bond
+- release date
+- hearings 
+- criminal offense.
 
 # Who uses Inmate check
  1. police wardens 
