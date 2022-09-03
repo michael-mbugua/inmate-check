@@ -7,7 +7,7 @@ in-mate check is a website that allows users to search inmate details such as;
 - release date
 - hearings 
 - criminal offense.
-
+https://img.shields.io/badge/<kenyaprisons>-<inmate>-<blue>
 ## Who uses Inmate check
  1. police wardens 
  2. Government officials
